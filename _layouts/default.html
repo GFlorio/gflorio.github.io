@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -20,13 +21,12 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>Programming, domain modeling, and the eventual cat picture.</p>
+        <p class="header">Programming, domain modeling, and the eventual cat picture.</p>
 
-        <h2 class="header">Links:</h2>
         <ul>
-            <li><a href="/curriculum">Curriculum Vitæ</a></li>
-            <li><a href="{{ site.github.owner_url }}">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/gabriel-florio-a5227211a">LinkedIn</a></li>
+            <li><i class="fa-file-alt"></i><a href="/cv">Curriculum Vitæ</a></li>
+            <li><i class="fa-github"></i><a href="{{ site.github.owner_url }}">GitHub</a></li>
+            <li><i class="fa-linkedin"></i><a href="https://www.linkedin.com/in/gabriel-florio-a5227211a">LinkedIn</a></li>
         </ul>
       </header>
       <section>
