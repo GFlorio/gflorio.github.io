@@ -14,7 +14,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1 class="header"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
@@ -22,13 +22,12 @@
 
         <p>Programming, domain modeling, and the eventual cat picture.</p>
 
-        <p class="view"><h3>Links:</h3></p>
-
-        <p class="view"><a href="/curriculum">Curriculum Vitæ</a></p>
-
-        <p class="view"><a href="{{ site.github.owner_url }}">GitHub Profile</a></p>
-
-        <p class="view"><a href="https://www.linkedin.com/in/gabriel-florio-a5227211a">LinkedIn Profile</a></p>
+        <h2 class="header">Links:</h2>
+        <ul>
+            <li><a href="/curriculum">Curriculum Vitæ</a></li>
+            <li><a href="{{ site.github.owner_url }}">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/gabriel-florio-a5227211a">LinkedIn</a></li>
+        </ul>
       </header>
       <section>
 
