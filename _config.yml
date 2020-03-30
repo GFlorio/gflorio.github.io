@@ -1,10 +1,10 @@
 title: Gabriel Florio # your name (or website title) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
-  <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  My personal webpage
+  <br>
+  <a href="/curriculum">Curriculum Vitæ</a>
+  <br>
+  <a href="https://www.linkedin.com/in/gabriel-florio-a5227211a">LinkedIn Profile</a> 
   
 theme: jekyll-theme-dinky
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
