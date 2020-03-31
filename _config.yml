@@ -4,6 +4,10 @@ theme: jekyll-theme-dinky
 google_analytics: UA-162263021-1
 url: https://www.gabrielflorio.com
 
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
 defaults:
   -
     scope:
@@ -13,7 +17,7 @@ defaults:
       layout: "post"
       comments: true
 
-paginate: 10
+paginate: 2
 
 exclude:
   - Gemfile
