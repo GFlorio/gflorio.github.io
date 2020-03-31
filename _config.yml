@@ -1,6 +1,19 @@
 title: Gabriel Florio
+author: Gabriel Florio
 theme: jekyll-theme-dinky
 google_analytics: UA-162263021-1
+url: https://www.gabrielflorio.com
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+
+paginate: 10
 
 exclude:
   - Gemfile

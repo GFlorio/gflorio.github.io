@@ -27,6 +27,5 @@ Dolor Amet
 Lorem ipsum
 
 [Top](#top)
-<a href="#top">Top A</a>
 
 # Industry
