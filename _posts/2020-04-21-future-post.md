@@ -1,6 +1,6 @@
 ---
 title: Posting from the future!
-categories: [test]
+tags: [test]
 
 ---
 

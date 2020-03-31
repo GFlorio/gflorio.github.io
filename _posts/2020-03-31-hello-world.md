@@ -1,6 +1,6 @@
 ---
 title: Hello, World!
-categories: [test, introduction]
+tags: [test, introduction]
 
 ---
 
