@@ -1,4 +1,3 @@
-
 ---
 title: Posting from the future!
 categories: [test]
