@@ -1,8 +1,12 @@
 # Experience Summary
-
 {:.no_toc}
 
-1. Index
+<a id="top"/>
+
+## Table of Contents
+{:.no_toc}
+
+* Index
 {:toc}
 
 # Software Engineering
@@ -21,5 +25,8 @@ Dolor Amet
 # Domain Knowledge
 
 Lorem ipsum
+
+[Top](#top)
+<a href="#top">Top A</a>
 
 # Industry
