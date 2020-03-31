@@ -7,9 +7,6 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
     <script src="https://kit.fontawesome.com/935b7db574.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -21,7 +18,7 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p class="header">Computing, domain modeling,<small>and the eventual cat picture.<small></p>
+        <p class="header">Computing, domain modeling, and the occasional cat picture.</p>
 
         <ul>
             <li><i class="fa fa-file-alt fa-lg"></i> <a href="/cv">Curriculum Vitæ</a></li>
@@ -35,7 +32,7 @@
 
       </section>
       <footer>
-          <p><small>Hosted on GitHub Pages<br>Gabriel Florio 2019 - {{ 'now' | date: "%Y" }}</small></p>
+          <p><small>Hosted on GitHub Pages<br>Gabriel Florio 2019-{{ 'now' | date: "%Y" }}</small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
