@@ -1,7 +1,7 @@
 # Curriculum Vitæ
 
-If you are a recruiter, you might want to check out my [Experience Summary](/summary),
-where I tell a bit about my work experience with several tools and methods, sorted by keywords.
+> **If you are a recruiter, you might want to check out my [Experience Summary](/summary),
+> where I tell a bit about my work experience with several tools and methods, sorted by keyword.**
 
 ## <i class="fa fa-briefcase"></i> Work History
 
