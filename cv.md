@@ -7,7 +7,7 @@ where I tell a bit about my experiences, organized by keywords.
 
 ### Software Engineer (Backend and DevOps) at Novidá 
 
-*Since Sep 2015*
+*Sep 2015 - now*
 
 Novidá is a startup using indoor positioning to optimize low-automation processes
 in industry and facilities. I started working there right at the beginning, in
@@ -54,7 +54,7 @@ Kubernetes, AWS, Microservices Architecture
 
 ### Software Engineering Intern at Software Architecture Lab 
 
-*From Apr 2014 to Sep 2015*
+*Apr 2014 - Sep 2015*
 
 My first job was in a software factory inside the Software Architecture Lab in
 my University department (POLI-USP). There, we worked under a very dedicated and
@@ -93,15 +93,17 @@ set arithmetics powered by Cython.
 
 ## Education
 
-**Bachelor's Degree:** Computer Engineering at University of São Paulo (POLI-USP) 2013-2017
+#### Bachelor's Degree
 
-**Graduation project:** Decision Support for Operations Management - A software
+- 2013 - 2017
+- Computer Engineering at University of São Paulo (POLI-USP)
+- **Graduation project:** Decision Support for Operations Management - A software
 system to help measure relative performance of the resources and strategies on
 a operation and suggest optimal resource allocation based on previous
 performance.
 
 ## Languages
 
-**Portuguese** (native)
-**English** (fluent/proficient)
-**German** (intermediate)
+- **Portuguese** (native)
+- **English** (fluent/proficient)
+- **German** (intermediate)
