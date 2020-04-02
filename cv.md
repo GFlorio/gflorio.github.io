@@ -3,9 +3,9 @@
 If you are a recruiter, you might want to check out my [Experience Summary](/summary),
 where I tell a bit about my work experience with several tools and methods, sorted by keywords.
 
-## <i class="fa fa-briefcase fa-lg"></i> Work History
+## <i class="fa fa-briefcase"></i> Work History
 
-### Software Engineer (Backend and DevOps) at Novidá 
+### Software Engineer (Back-end and DevOps) at Novidá 
 
 *Sep 2015 - now*
 
@@ -33,7 +33,7 @@ My contributions include:
   the front-end developers.
 
 **Toolset:** Python, Django, Domain-Driven Design, Docker, Git, SQL,
-Kubernetes, Azure AKS
+Kubernetes, Google Cloud Platform, RabbitMQ
 
 #### Project: Indoor Positioning
 
@@ -44,12 +44,12 @@ availability and low latency. My contributions include:
 
 - An adaptable signal processing pipeline, including Bayesian filtering.
 - Building, training, evaluating and deploying machine learning models.
-- Design and implementation of a proper RESTful API, using Spring Boot
+- Design and implementation of a proper RESTful API, using Spring Boot.
 - Tooling for monitoring and profiling the system in production with Graylog and Grafana.
 - Deploying on Kubernetes with proper configuration to ensure scalability and availability.
 
 **Toolset:** Java, Spring Boot, Python, Scikit-Learn, Docker, Git, SQL,
-Kubernetes, AWS, Microservices Architecture
+Kubernetes, Azure, Microservices Architecture, RabbitMQ
 
 
 ### Software Engineering Intern at Software Architecture Lab 
@@ -69,29 +69,29 @@ methodology, which included collecting data from patients, cross-referencing
 them with a large nutritional database and creating useful automated reports for
 the research at the department. My contributions include:
 
-- Designing and building task-oriented use cases and web interfaces in .NET
-- Designing a denormalized data model to better support the reporting modules
-- Working with the researchers to design the data visualization in the reports
-- Deploying the system to IIS servers at the University
+- Designing and building task-oriented use cases and web interfaces in .NET.
+- Designing a denormalized data model to better support the reporting modules.
+- Working with the researchers to design the data visualization in the reports.
+- Deploying the system to IIS servers at the University.
 
 **Toolset:** C#, ASP.NET MVC, Microsoft SQL Server, Python, Ansible,
 Test-Driven Development (TDD), Layered Architecture
 
 
-## <i class="fa fa-plus-square fa-lg"></i> Personal Projects
+## <i class="fa fa-plus-square"></i> Personal Projects
 
-### OperaPlan
+#### OperaPlan
 
 A library for operations resource planning and optimization in Java. Built upon
 state of the art heuristics and several experimental tweaks for improving
 performance on real datasets.
 
-### Pytimeset
+#### Pytimeset
 
 A library for dealing with continuous time sets in Python. Provides efficient
 set arithmetics powered by Cython.
 
-## <i class="fa fa-graduation-cap fa-lg"></i> Education
+## <i class="fa fa-graduation-cap"></i> Education
 
 #### Bachelor's Degree (2013 - 2017)
 
@@ -101,7 +101,7 @@ system to help measure relative performance of the resources and strategies on
 a operation and suggest optimal resource allocation based on previous
 performance.
 
-## <i class="fa fa-globe fa-lg"></i> Languages
+## <i class="fa fa-globe"></i> Languages
 
 - **Portuguese** (native)
 - **English** (fluent/proficient)
