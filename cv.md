@@ -1,9 +1,9 @@
 # Curriculum Vitæ
 
 If you are a recruiter, you might want to check out my [Experience Summary](/summary),
-where I tell a bit about my experiences, organized by keywords.
+where I tell a bit about my work experience with several tools and methods, sorted by keywords.
 
-## Work History
+## <i class="fa fa-briefcase fa-lg"></i> Work History
 
 ### Software Engineer (Backend and DevOps) at Novidá 
 
@@ -19,7 +19,7 @@ In 2018, I was assigned to lead the development of the process optimization prod
 This was done in close collaboration with a large industrial client, which
 mostly inspired its creation. I had to balance the needs of the client with the
 interests of the company in creating a widely useful product, and had to
-negotiate between stakeholders the development of features.
+negotiate the development of features with stakeholders on both sides.
 
 The project itself was also very challenging, as it had an intricate domain and
 involved solving a particularly intractable combinatorial optimization problem.
@@ -78,7 +78,7 @@ the research at the department. My contributions include:
 Test-Driven Development (TDD), Layered Architecture
 
 
-## Personal Projects
+## <i class="fa fa-plus-square fa-lg"></i> Personal Projects
 
 ### OperaPlan
 
@@ -91,18 +91,17 @@ performance on real datasets.
 A library for dealing with continuous time sets in Python. Provides efficient
 set arithmetics powered by Cython.
 
-## Education
+## <i class="fa fa-graduation-cap fa-lg"></i> Education
 
-#### Bachelor's Degree
+#### Bachelor's Degree (2013 - 2017)
 
-- 2013 - 2017
 - Computer Engineering at University of São Paulo (POLI-USP)
 - **Graduation project:** Decision Support for Operations Management - A software
 system to help measure relative performance of the resources and strategies on
 a operation and suggest optimal resource allocation based on previous
 performance.
 
-## Languages
+## <i class="fa fa-globe fa-lg"></i> Languages
 
 - **Portuguese** (native)
 - **English** (fluent/proficient)
