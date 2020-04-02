@@ -5,7 +5,9 @@ where I tell a bit about my experiences, organized by keywords.
 
 ## Work History
 
-### Software Engineer (Backend and DevOps) at Novidá - Since Sep 2015
+### Software Engineer (Backend and DevOps) at Novidá 
+
+*Since Sep 2015*
 
 Novidá is a startup using indoor positioning to optimize low-automation processes
 in industry and facilities. I started working there right at the beginning, in
@@ -50,7 +52,9 @@ availability and low latency. My contributions include:
 Kubernetes, AWS, Microservices Architecture
 
 
-### Software Engineering Intern at Software Architecture Lab - From Apr 2014 to Sep 2015
+### Software Engineering Intern at Software Architecture Lab 
+
+*From Apr 2014 to Sep 2015*
 
 My first job was in a software factory inside the Software Architecture Lab in
 my University department (POLI-USP). There, we worked under a very dedicated and
@@ -74,3 +78,30 @@ the research at the department. My contributions include:
 Test-Driven Development (TDD), Layered Architecture
 
 
+## Personal Projects
+
+### OperaPlan
+
+A library for operations resource planning and optimization in Java. Built upon
+state of the art heuristics and several experimental tweaks for improving
+performance on real datasets.
+
+### Pytimeset
+
+A library for dealing with continuous time sets in Python. Provides efficient
+set arithmetics powered by Cython.
+
+## Education
+
+**Bachelor's Degree:** Computer Engineering at University of São Paulo (POLI-USP) 2013-2017
+
+**Graduation project:** Decision Support for Operations Management - A software
+system to help measure relative performance of the resources and strategies on
+a operation and suggest optimal resource allocation based on previous
+performance.
+
+## Languages
+
+**Portuguese** (native)
+**English** (fluent/proficient)
+**German** (intermediate)
