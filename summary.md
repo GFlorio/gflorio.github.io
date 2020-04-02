@@ -45,9 +45,9 @@ See also: [DevOps](#devops).
 
 Being the algorithm nerd I am, many areas of AI interest me:
 
-- I have build, deployed and maintained machine learning models when working on
+- I have built, deployed and maintained machine learning models when working on
   the [Indoor Positioning project](/cv#project-indoor-positioning).
-- I also have build, deployed and maintained heuristic search algorithms on the
+- I also have built, deployed and maintained heuristic search algorithms on the
   [Process Optimization project](/cv#project-process-optimization)
 - I have a solid grasp of Game Theory. I've been wanting to get into
   [Agent-based Computational
