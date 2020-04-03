@@ -68,11 +68,6 @@ See [DevOps](#devops).
 
 [Top](#top)
 
-### Data Science
-TODO
-
-[Top](#top)
-
 ### Debian
 See [Linux](#linux).
 
@@ -97,9 +92,9 @@ Platform. All those changes were naturally very stressful and required a lot of
 work, but they have led us to operate in a very cloud-agnostic way, based on
 Kubernetes.
 
-So, that left me with some knowledge of all those cloud providers, although I
-didn't have much chance to explore their tools in depth, since we were mostly
-rolling our own.
+In the end, that left me with some knowledge of all those cloud providers,
+although I didn't have much chance to explore their tools in depth, since we
+were mostly rolling our own.
 
 [Top](#top)
 
@@ -108,7 +103,7 @@ rolling our own.
 I first had contact with Django in 2016 and it was love at first sight. I have
 chosen to use Django + Django Rest Framework for every application I've written
 in Python since 2017. I know pretty well the ins and outs of the framework and
-I think it's a superb tool for many kinds of projects.
+I think it's a great tool for many kinds of projects.
 
 I have written applications with it in the "default" architecture as well as in
 conjunction with an "Hexagonal" architecture, in order to make the domain model
@@ -172,6 +167,20 @@ See [DevOps](#devops).
 
 [Top](#top)
 
+### Indoor Positioning
+
+From 2015 to 2017 I've [worked mostly on indoor
+positioning](/cv#project-indoor-positioning). During that time, while the focus
+was on using commodity hardware, I have tried just about any technology you
+have heard about (and probably some you haven't).
+
+I have used machine learning methods extensively, as well as methods based on
+wave propagation (RSSI, AoA and TDoA), complemented with dead-reckoning. Ended
+up with an approach that could combine multiple results using Bayesian sensor
+fusion.
+
+[Top](#top)
+
 ### Java
 
 I first learned Java when I was 13 years old, because I wanted to make
@@ -184,13 +193,23 @@ It's compatible with absolutely everything, the JVM is a wonder of modern
 engineering, and the language lends itself very well for work with larger,
 heterogeneous teams.
 
-I think most of the hate on Java is caused by people misusing or abusing OOP.
+I think most of the hate on Java is caused by people misusing or abusing OOP. I
+have good OOP foundations and practice, I keep myself updated on new Java
+features, and my copy of [Effective
+Java](https://www.amazon.com/Effective-Java-Joshua-Bloch-ebook/dp/B078H61SCH)
+is never out of reach.
 
 [Top](#top)
 
 ### Kubernetes
 
+I have been using Kubernetes since 2017 for managing several projects in a
+auto-scalable cloud of around 80 pods. I like to use it in conformity with the
+recommended best practices and In the spirit of a true DevOps culture. Each
+team manages their own infrastructure configuration files in a central Git
+repository. That way, we have a true versioned and reproducible environment.
 
+See also: [DevOps](#devops).
 
 [Top](#top)
 
@@ -205,10 +224,55 @@ See also: [DevOps](#devops).
 
 [Top](#top)
 
+### Logistics
+
+Since 2018 I have been working on [applications in the domain of
+logistics](/cv#project-process-optimization), more specifically in heavy
+industry and facilities. My work has put me directly in contact with many
+people in that field, from whom I learned a lot about their problems and wants.
+
+I had opportunity to work on projects focused on route optimization, work
+distribution optimization, and risk monitoring.
+
+[Top](#top)
+
 ### Machine Learning
+
+I first started looking into machine learning when I started the [Indoor
+Positioning project](/cv#project-indoor-positioning) in 2015. Thankfully, I had
+a solid statistical background from [engineering school](/cv#-education), so
+many of the concepts were relatively easy to grasp.
+
+Because of that, I have acquired experience in building, deploying and
+maintaining machine learning models in production, complete with unsupervised
+outlier detection, data cleaning and normalization, cross-validation and
+metaparemeter optimization by local search.
+
+As for the actual algorithms, I tend to prefer something tweakable and
+interpretable than the absolute best performance, because I think that's what
+brings more value to most real business cases.
+
 [Top](#top)
 
 ### Microservices Architecture
+
+Back in 2015, I had the opportunity to participate in a completely greenfield
+project, and we chose the way of microservices. We did a pretty good job, I
+think, because the services were really autonomous, the communication was
+entirely done with asynchronous messages, and we did eventual consistency
+right.
+
+Even so, I don't think I would do that again. Experience has nudged me in the
+way of a little more coarse autonomous services, as aligned as possible with
+the subdomains of the business. There is some discussion to if that qualifies
+as "micro" services.
+
+Then again, I don't think "microservices" really describes an architecture,
+it's more like a deployment strategy. While that's important, it's only a part
+of the architecture.
+
+See also: [RabbitMQ](#rabbitmq), [Software Architecture](#software-architecture)
+
 [Top](#top)
 
 ### MongoDB
@@ -227,6 +291,21 @@ See [SQL](#sql).
 [Top](#top)
 
 ### Optimization
+
+Sort of my favorite theme in computing right now. I think that applications
+based on heuristic optimization have a potential to transform a lot of
+businesses, especially when paired with machine learning.
+
+My [graduation project](/cv#-education) in college was about this and, since
+then, the more I learn, the more excited I get. On my job, I have designed,
+implemented and deployed a [optimization
+system](/cv#project-process-optimization) for job distribution among
+maintenance workers of a large industrial client, complete with a constructive
+heuristic and local search.
+
+I also have a [pet project](/cv#operaplan) that is really just an excuse to
+tweak around algorithms and see what happens.
+
 [Top](#top)
 
 ### PostgreSQL
@@ -235,24 +314,101 @@ See [SQL](#sql).
 [Top](#top)
 
 ### Python
+
+I've been using Python personally since 2013, and professionally since 2015.  I
+think it's a great language for a lot of tasks, and the ecosystem has some of
+the best tools around for web services, machine learning and scientific
+computing in general.
+
+The main downside, which generally is performance, can normally be mitigated by
+careful profiling and building an extension in Cython. My personal project
+[pytimeset](/cv#pytimeset) was inspired by one of these occasions. By using it,
+I have achieved a run time reduction of around 85% for a fairly complex
+algorithm I had in production, which was taking hours to run for some of our
+bigger clients.
+
+I believe I am able to write Python in a very *pythonic* and clean way, and I
+follow PEP8 rigorously.
+
 [Top](#top)
 
 ### RabbitMQ
+
+It's really the best tool available to build autonomous services around. I have
+been using it in production since 2016 for processing hundreds of messages per
+second and its reliability surprises me every time.
+
+I have also used it just for scheduling asynchronous tasks (such as with
+Celery), but I think it might be a little overkill just for that.
+
 [Top](#top)
 
 ### Remote working
+
+I have been working with varying degrees of "remoteness" since 2015, 2 years of
+that period being fully remote. The best thing about it, in my opinion, is
+being able to live away from large urban centers without wasting hours upon
+hours of commuting.
+
+The only "remote workflow" I have ever experienced is fully asynchronous
+communication, but I'm really excited to try other methods.
+
 [Top](#top)
 
 ### REST
+
+A lot of people use "RESTful API" to mean simply a JSON API over HTTP, but I
+think there's really a lot of concrete gain to be had by adopting REST more
+closely to what Roy Fieldings first described.
+
+I have been using REST more rigorously 2017, although I have been designing
+"RESTful "JSON APIs over HTTP since 2015. I have good experience on properly
+using the HTTP verbs (including the often forgotten OPTIONS), resources, and
+HATEOAS.
+
 [Top](#top)
 
 ### Software Architecture
+
+From [working under a software architecture
+professor](/cv#software-engineering-intern-at-software-architecture-lab), who
+then became more or less my mentor for the whole course, I got a strong
+theoretical basis on the field. I feel comfortable with viewpoint modeling and
+with applying reference architectures to concrete problems.
+
+That said, I know most people aren't like that, and the word itself has a
+([probably
+deserved](https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/))
+stigma around it, so I try to have a very lightweight approach to architecture
+in practice. I believe that we can get the whole team to think architecturally
+just by asking the right questions at the right stage of a project and working
+together to answer them, and that we can get a lot of concrete value from that.
+No UML required, and definitely no Big Design Upfront.
+
 [Top](#top)
 
 ### Spring Boot
+
+My framework of choice when building Java applications. I have been using it
+professionally since 2018, and I'm always amazed at the sheer amount of stuff
+it offers.
+
+Of course, because of that, one risks having the whole application swallowed up
+by it, but that can be avoided by having a separate domain model, independent
+from the framework.
+
 [Top](#top)
 
 ### SQL
+
+I have been working with SQL databases since 2015. During this time, I have
+worked with Microsoft SQL Server, MySQL and PostgreSQL. I have used ORMs
+(Django and JPA2/Hibernate) and have hand-crafted optimized queries without any
+problems.
+
+As far as building and maintaining an application goes, I would say that I have
+no problems using any of those tools whatsoever.
+
 [Top](#top)
 
 ### Ubuntu
