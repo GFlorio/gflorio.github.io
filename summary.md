@@ -26,14 +26,14 @@ The methodology with which I have most experience is Kanban.
 I'm a bit of a Logic nerd, therefore I'm also a bit of a algorithm nerd. I feel
 comfortable analyzing, designing and tweaking many kinds of algorithms, but I
 especially like heuristic searches. In fact, tweaking algorithms is pretty much
-all I do in my pet project [OperaPlan](/cv#operaplan).
+all I do in my pet project [OperaPlan](/cv#-operaplan).
 
 [Top](#top)
 
 ### Ansible
 
 I've used Ansible for about two years, to manage both on-premises and virtual
-cloud servers. In 2017 my company has moved on to cloud-managed Kubernetes, and
+cloud servers. In 2017 my team has moved on to cloud-managed Kubernetes, and
 since then my Ansible skills got a little rusty, but I'm confident I could pick
 it up again fast, should the need arise.
 
@@ -126,7 +126,7 @@ See also: [DevOps](#devops).
 ### Domain-Driven Design
 
 Essential technique in my toolset. I have been using DDD and pushing it in my
-company in one way or another since 2017. Even though the beginning was a
+team in one way or another since 2017. Even though the beginning was a
 little awkward (the learning curve can be pretty steep), I now consider myself
 able to properly apply both the tactical and strategic patterns in a way that
 makes sense to the project I'm working on.
@@ -258,11 +258,11 @@ brings more value to most real business cases.
 
 Back in 2015, I had the opportunity to participate in a completely greenfield
 project, and we chose the way of microservices. We did a pretty good job, I
-think, because the services were really autonomous, the communication was
+believe, because the services were really autonomous, the communication was
 entirely done with asynchronous messages, and we did eventual consistency
 right.
 
-Even so, I don't think I would do that again. Experience has nudged me in the
+Even so, I probably wouldn't do that again. Experience has nudged me in the
 way of a little more coarse autonomous services, as aligned as possible with
 the subdomains of the business. There is some discussion to if that qualifies
 as "micro" services.
@@ -303,7 +303,7 @@ system](/cv#project-process-optimization) for job distribution among
 maintenance workers of a large industrial client, complete with a constructive
 heuristic and local search.
 
-I also have a [pet project](/cv#operaplan) that is really just an excuse to
+I also have a [pet project](/cv#-operaplan) that is really just an excuse to
 tweak around algorithms and see what happens.
 
 [Top](#top)
@@ -322,7 +322,7 @@ computing in general.
 
 The main downside, which generally is performance, can normally be mitigated by
 careful profiling and building an extension in Cython. My personal project
-[pytimeset](/cv#pytimeset) was inspired by one of these occasions. By using it,
+[pytimeset](/cv#-pytimeset) was inspired by one of these occasions. By using it,
 I have achieved a run time reduction of around 85% for a fairly complex
 algorithm I had in production, which was taking hours to run for some of our
 bigger clients.
@@ -359,10 +359,10 @@ communication, but I'm really excited to try other methods.
 
 A lot of people use "RESTful API" to mean simply a JSON API over HTTP, but I
 think there's really a lot of concrete gain to be had by adopting REST more
-closely to what Roy Fieldings first described.
+closely to what Roy Fieldings first envisioned.
 
 I have been using REST more rigorously 2017, although I have been designing
-"RESTful "JSON APIs over HTTP since 2015. I have good experience on properly
+"RESTful" JSON APIs over HTTP since 2015. I have good experience on properly
 using the HTTP verbs (including the often forgotten OPTIONS), resources, and
 HATEOAS.
 
