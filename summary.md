@@ -109,6 +109,8 @@ I have written applications with it in the "default" architecture as well as in
 conjunction with an "Hexagonal" architecture, in order to make the domain model
 stand out better, unhindered by infrastructure code.
 
+See also: [Python](#python).
+
 [Top](#top)
 
 ### Docker
@@ -141,8 +143,9 @@ projects, I believe that a "domain first" approach is always beneficial.
 I can't think of a faster environment than [a tiny startup rising up from the
 ground](/cv#project-indoor-positioning). Honestly, I love this kind of
 environment (in fact, our office was on a old house where two of the team
-members lived). I work my best when I can go to sleep with a problem in my
-head, wake up with the solution, share it with everyone and go make it.
+members lived, so there was work going on *all the time*. I have slept on their
+couch more than once). I work my best when I can go to sleep with a problem in
+my head, wake up with the solution, share it with everyone and go make it.
 
 On the other hand, such environments are prone to the "permanent sense of
 impending doom syndrome", and it's not a easy task for management to avoid
