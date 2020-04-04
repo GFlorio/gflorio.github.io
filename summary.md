@@ -197,7 +197,7 @@ I think most of the hate on Java is caused by people misusing or abusing OOP. I
 have good OOP foundations and practice, I keep myself updated on new Java
 features, and my copy of [Effective
 Java](https://www.amazon.com/Effective-Java-Joshua-Bloch-ebook/dp/B078H61SCH)
-is never out of reach.
+always close by.
 
 [Top](#top)
 
@@ -396,6 +396,8 @@ it offers.
 Of course, because of that, one risks having the whole application swallowed up
 by it, but that can be avoided by having a separate domain model, independent
 from the framework.
+
+See also: [Java](#java).
 
 [Top](#top)
 

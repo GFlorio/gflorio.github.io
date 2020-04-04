@@ -80,13 +80,13 @@ Test-Driven Development (TDD), Layered Architecture
 
 ## <i class="fa fa-plus-square"></i> Personal Projects
 
-#### OperaPlan
+#### <a href="https://github.com/GFlorio/operaplan" target="_blank" rel="noreferrer"><i class="fab fa-github"></i> OperaPlan</a>
 
 A library for operations resource planning and optimization in Java. Built upon
 state of the art heuristics and several experimental tweaks for improving
 performance on real datasets.
 
-#### Pytimeset
+#### <a href="https://github.com/GFlorio/pytimeset" target="_blank" rel="noreferrer"><i class="fab fa-github"></i> Pytimeset</a>
 
 A library for dealing with continuous time sets in Python. Provides efficient
 set arithmetics powered by Cython.
