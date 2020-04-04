@@ -100,9 +100,9 @@ were mostly rolling our own.
 
 ### Django
 
-I first had contact with Django in 2016 and it was love at first sight. I have
+I first had contact with Django in 2014 and it was love at first sight. I have
 chosen to use Django + Django Rest Framework for every application I've written
-in Python since 2017. I know pretty well the ins and outs of the framework and
+in Python since 2016. I know pretty well the ins and outs of the framework and
 I think it's a great tool for many kinds of projects.
 
 I have written applications with it in the "default" architecture as well as in
