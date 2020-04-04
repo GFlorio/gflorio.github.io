@@ -3,6 +3,8 @@
 > **If you are a recruiter, you might want to check out my [Experience Summary](/summary),
 > where I tell a bit about my work experience with several tools and methods, sorted by keyword.**
 
+You can also download a slightly more condensed version of this in [PDF](/pdf/cv.pdf).
+
 ## <i class="fa fa-briefcase"></i> Work History
 
 ### Software Engineer (Back-end and DevOps) at Novidá 
