@@ -26,7 +26,7 @@ The methodology with which I have most experience is Kanban.
 I'm a bit of a Logic nerd, therefore I'm also a bit of a algorithm nerd. I feel
 comfortable analyzing, designing and tweaking many kinds of algorithms, but I
 especially like heuristic searches. In fact, tweaking algorithms is pretty much
-all I do in my pet project [OperaPlan](/cv#-operaplan).
+all I do in my pet project [OperaPlan](/cv#-personal-projects).
 
 [Top](#top)
 
@@ -303,8 +303,8 @@ system](/cv#project-process-optimization) for job distribution among
 maintenance workers of a large industrial client, complete with a constructive
 heuristic and local search.
 
-I also have a [pet project](/cv#-operaplan) that is really just an excuse to
-tweak around algorithms and see what happens.
+I also have a [pet project](/cv#-personal-projects) that is really just an
+excuse to tweak around algorithms and see what happens.
 
 [Top](#top)
 
@@ -322,10 +322,10 @@ computing in general.
 
 The main downside, which generally is performance, can normally be mitigated by
 careful profiling and building an extension in Cython. My personal project
-[pytimeset](/cv#-pytimeset) was inspired by one of these occasions. By using it,
-I have achieved a run time reduction of around 85% for a fairly complex
-algorithm I had in production, which was taking hours to run for some of our
-bigger clients.
+[pytimeset](/cv#-personal-projects) was inspired by one of these occasions. By
+using it, I have achieved a run time reduction of around 85% for a fairly
+complex algorithm I had in production, which was taking hours to run for some
+of our bigger clients.
 
 I believe I am able to write Python in a very *pythonic* and clean way, and I
 follow PEP8 rigorously.
