@@ -295,9 +295,9 @@ See [SQL](#sql).
 
 ### Optimization
 
-Sort of my favorite theme in computing right now. I think that applications
-based on heuristic optimization have a potential to transform a lot of
-businesses, especially when paired with machine learning.
+Sort of my favorite theme in Computer Science right now. I think that
+applications based on heuristic optimization have a potential to transform a
+lot of businesses, especially when paired with machine learning.
 
 My [graduation project](/cv#-education) in college was about this and, since
 then, the more I learn, the more excited I get. On my job, I have designed,
