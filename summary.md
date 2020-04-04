@@ -172,7 +172,7 @@ See [DevOps](#devops).
 
 ### Indoor Positioning
 
-From 2015 to 2017 I've [worked mostly on indoor
+From 2015 to 2017 I have [worked mostly on indoor
 positioning](/cv#project-indoor-positioning). During that time, while the focus
 was on using commodity hardware, I have tried just about any technology you
 have heard about (and probably some you haven't).
@@ -385,8 +385,8 @@ deserved](https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astron
 stigma around it, so I try to have a very lightweight approach to architecture
 in practice. I believe that we can get the whole team to think architecturally
 just by asking the right questions at the right stage of a project and working
-together to answer them, and that we can get a lot of concrete value from that.
-No UML required, and definitely no Big Design Upfront.
+together to answer them, and that we can get a lot of concrete value from doing
+that. No UML required, and definitely no Big Design Upfront.
 
 [Top](#top)
 
