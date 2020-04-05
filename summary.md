@@ -333,6 +333,8 @@ of our bigger clients.
 I believe I am able to write Python in a very *pythonic* and clean way, and I
 follow PEP8 rigorously.
 
+![PluralSight IQ Python Expert](/assets/python_expert.png)
+
 [Top](#top)
 
 ### RabbitMQ
