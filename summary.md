@@ -331,7 +331,8 @@ complex algorithm I had in production, which was taking hours to run for some
 of our bigger clients.
 
 I believe I am able to write Python in a very *pythonic* and clean way, and I
-follow PEP8 rigorously.
+follow PEP8 rigorously. In April 2020, I was verified as a top 1% Python expert
+by PluralSight IQ.
 
 ![PluralSight IQ Python Expert](/assets/python_expert.png)
 
