@@ -9,6 +9,142 @@
 * Index
 {:toc}
 
+## Expert
+
+### Docker
+
+I have been using Docker in production since 2017. I think it's a superb tool,
+even though sometimes it does have a few counter-intuitive and hard to debug
+problems.
+
+I'm also comfortable with image optimization and multi-stage builds.
+
+See also: [DevOps](#devops).
+
+[Top](#top)
+
+### Fast paced environments
+
+I can't think of a faster environment than [a tiny startup rising up from the
+ground](/cv#project-indoor-positioning). Honestly, I love this kind of
+environment (in fact, our office was on a old house where two of the team
+members lived, so there was work going on *all the time*. I have slept on their
+couch more than once). I work my best when I can go to sleep with a problem in
+my head, wake up with the solution, share it with everyone and go make it.
+
+On the other hand, such environments are prone to the "permanent sense of
+impending doom syndrome", and it's not a easy task for management to avoid
+that. As such, I think that a open feedback culture is a hard requisite for
+having a healthy fast paced work environment. Sometimes we just need to take a
+step back and take a good look at our priorities, everyone works better when
+they're feeling safe.
+
+[Top](#top)
+
+### Indoor Positioning
+
+From 2015 to 2017 I have [worked mostly on indoor
+positioning](/cv#project-indoor-positioning). During that time, while the focus
+was on using commodity hardware, I have tried just about any technology you
+have heard about (and probably some you haven't).
+
+I have used machine learning methods extensively, as well as methods based on
+wave propagation (RSSI, AoA and TDoA), complemented with dead-reckoning. Ended
+up with an approach that could combine multiple results using Bayesian sensor
+fusion.
+
+[Top](#top)
+
+### NodeJS
+
+I have been using NodeJS since 2015. It's a great platform for building
+lightweight containers and I've used it a lot to build smaller,
+functional-style, workers that would consume events from RabbitMQ or batch
+process data.
+
+In my opinion, its biggest downside is Javascript itself, being a language that
+does not lend itself for building large systems with heterogeneous teams.
+TypeScript is a step in the right direction to alleviate that. Remains to be
+seen if it will become a reliable standard.
+
+In April 2020 I was verified as a top 5% NodeJS Expert by PluralSight IQ.
+
+![PluralSight IQ NodeJS Expert](/assets/node_expert.png)
+
+### Python
+
+I've been using Python personally since 2013, and professionally since 2015.  I
+think it's a great language for a lot of tasks, and the ecosystem has some of
+the best tools around for web services, machine learning and scientific
+computing in general.
+
+The main downside, which generally is performance, can normally be mitigated by
+careful profiling and building an extension in Cython. My personal project
+[pytimeset](/cv#-personal-projects) was inspired by one of these occasions. By
+using it, I have achieved a run time reduction of around 85% for a fairly
+complex algorithm I had in production, which was taking hours to run for some
+of our bigger clients.
+
+I believe I am able to write Python in a very *pythonic* and clean way, and I
+follow PEP8 rigorously. In April 2020, I was verified as a top 1% Python expert
+by PluralSight IQ.
+
+![PluralSight IQ Python Expert](/assets/python_expert.png)
+
+[Top](#top)
+
+### REST
+
+A lot of people use "RESTful API" to mean simply a JSON API over HTTP, but I
+think there's really a lot of concrete gain to be had by adopting REST more
+closely to what Roy Fieldings first envisioned.
+
+I have been using REST more rigorously 2017, although I have been designing
+"RESTful" JSON APIs over HTTP since 2015. I have good experience on properly
+using the HTTP verbs (including the often forgotten OPTIONS), resources, and
+HATEOAS.
+
+[Top](#top)
+
+### Software Architecture
+
+From [working under a software architecture
+professor](/cv#software-engineering-intern-at-software-architecture-lab), who
+then became more or less my mentor for the whole course, I got a strong
+theoretical basis on the field. I feel comfortable with viewpoint modeling and
+with applying reference architectures to concrete problems.
+
+That said, I know most people aren't like that, and the word itself has a
+([probably
+deserved](https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/))
+stigma around it, so I try to have a very lightweight approach to architecture
+in practice. I believe that we can get the whole team to think architecturally
+just by asking the right questions at the right stage of a project and working
+together to answer them, and that we can get a lot of concrete value from doing
+that. No UML required, and definitely no Big Design Upfront.
+
+[Top](#top)
+
+### Optimization
+
+Sort of my favorite theme in Computer Science right now. I think that
+applications based on heuristic optimization have a potential to transform a
+lot of businesses, especially when paired with machine learning.
+
+My [graduation project](/cv#-education) in college was about this and, since
+then, the more I learn, the more excited I get. On my job, I have designed,
+implemented and deployed a [optimization
+system](/cv#project-process-optimization) for job distribution among
+maintenance workers of a large industrial client, complete with a constructive
+heuristic and local search.
+
+I also have a [pet project](/cv#-personal-projects) that is really just an
+excuse to tweak around algorithms and see what happens.
+
+[Top](#top)
+
+## Experienced
+
 ### Agile
 
 I strongly believe "agile" is an adjective, not a noun. Therefore, agility
@@ -30,17 +166,6 @@ all I do in my pet project [OperaPlan](/cv#-personal-projects).
 
 [Top](#top)
 
-### Ansible
-
-I've used Ansible for about two years, to manage both on-premises and virtual
-cloud servers. In 2017 my team has moved on to cloud-managed Kubernetes, and
-since then my Ansible skills got a little rusty, but I'm confident I could pick
-it up again fast, should the need arise.
-
-See also: [DevOps](#devops).
-
-[Top](#top)
-
 ### Artificial Intelligence
 
 Being the algorithm nerd I am, many areas of AI interest me:
@@ -55,16 +180,6 @@ Being the algorithm nerd I am, many areas of AI interest me:
   really gotten around to that yet.
 
 See also: [Machine Learning](#machine-learning), [Optimization](#optimization).
-
-[Top](#top)
-
-### AWS
-See [DevOps](#devops).
-
-[Top](#top)
-
-### Azure
-See [DevOps](#devops).
 
 [Top](#top)
 
@@ -113,18 +228,6 @@ See also: [Python](#python).
 
 [Top](#top)
 
-### Docker
-
-I have been using Docker in production since 2017. I think it's a superb tool,
-even though sometimes it does have a few counter-intuitive and hard to debug
-problems.
-
-I'm also comfortable with image optimization and multi-stage builds.
-
-See also: [DevOps](#devops).
-
-[Top](#top)
-
 ### Domain-Driven Design
 
 Essential technique in my toolset. I have been using DDD and pushing it in my
@@ -138,49 +241,12 @@ projects, I believe that a "domain first" approach is always beneficial.
 
 [Top](#top)
 
-### Fast paced environments
-
-I can't think of a faster environment than [a tiny startup rising up from the
-ground](/cv#project-indoor-positioning). Honestly, I love this kind of
-environment (in fact, our office was on a old house where two of the team
-members lived, so there was work going on *all the time*. I have slept on their
-couch more than once). I work my best when I can go to sleep with a problem in
-my head, wake up with the solution, share it with everyone and go make it.
-
-On the other hand, such environments are prone to the "permanent sense of
-impending doom syndrome", and it's not a easy task for management to avoid
-that. As such, I think that a open feedback culture is a hard requisite for
-having a healthy fast paced work environment. Sometimes we just need to take a
-step back and take a good look at our priorities, everyone works better when
-they're feeling safe.
-
-[Top](#top)
-
 ### Git
 
 I have been using git professionally almost every day since 2017. At this
 point, it's almost second nature for me, although I still have to take a look
 at the docs to do some of the "set and forget" things such as submodules and
 hooks. I have worked with trunk based development and with feature branches.
-
-[Top](#top)
-
-### Google Cloud Platform
-See [DevOps](#devops).
-
-[Top](#top)
-
-### Indoor Positioning
-
-From 2015 to 2017 I have [worked mostly on indoor
-positioning](/cv#project-indoor-positioning). During that time, while the focus
-was on using commodity hardware, I have tried just about any technology you
-have heard about (and probably some you haven't).
-
-I have used machine learning methods extensively, as well as methods based on
-wave propagation (RSSI, AoA and TDoA), complemented with dead-reckoning. Ended
-up with an approach that could combine multiple results using Bayesian sensor
-fusion.
 
 [Top](#top)
 
@@ -224,18 +290,6 @@ good grasp on Linux operation and administration. Through the years, I have
 used Ubuntu, Debian, Fedora and Alpine.
 
 See also: [DevOps](#devops).
-
-[Top](#top)
-
-### Logistics
-
-Since 2018 I have been working on [applications in the domain of
-logistics](/cv#project-process-optimization), more specifically in heavy
-industry and facilities. My work has put me directly in contact with many
-people in that field, from whom I learned a lot about their problems and wants.
-
-I had opportunity to work on projects focused on route optimization, work
-distribution optimization, and risk monitoring.
 
 [Top](#top)
 
@@ -293,51 +347,6 @@ See [SQL](#sql).
 
 [Top](#top)
 
-### Optimization
-
-Sort of my favorite theme in Computer Science right now. I think that
-applications based on heuristic optimization have a potential to transform a
-lot of businesses, especially when paired with machine learning.
-
-My [graduation project](/cv#-education) in college was about this and, since
-then, the more I learn, the more excited I get. On my job, I have designed,
-implemented and deployed a [optimization
-system](/cv#project-process-optimization) for job distribution among
-maintenance workers of a large industrial client, complete with a constructive
-heuristic and local search.
-
-I also have a [pet project](/cv#-personal-projects) that is really just an
-excuse to tweak around algorithms and see what happens.
-
-[Top](#top)
-
-### PostgreSQL
-See [SQL](#sql).
-
-[Top](#top)
-
-### Python
-
-I've been using Python personally since 2013, and professionally since 2015.  I
-think it's a great language for a lot of tasks, and the ecosystem has some of
-the best tools around for web services, machine learning and scientific
-computing in general.
-
-The main downside, which generally is performance, can normally be mitigated by
-careful profiling and building an extension in Cython. My personal project
-[pytimeset](/cv#-personal-projects) was inspired by one of these occasions. By
-using it, I have achieved a run time reduction of around 85% for a fairly
-complex algorithm I had in production, which was taking hours to run for some
-of our bigger clients.
-
-I believe I am able to write Python in a very *pythonic* and clean way, and I
-follow PEP8 rigorously. In April 2020, I was verified as a top 1% Python expert
-by PluralSight IQ.
-
-![PluralSight IQ Python Expert](/assets/python_expert.png)
-
-[Top](#top)
-
 ### RabbitMQ
 
 It's really the best tool available to build autonomous services around. I have
@@ -361,35 +370,48 @@ communication, but I'm really excited to try other methods.
 
 [Top](#top)
 
-### REST
+### SQL
 
-A lot of people use "RESTful API" to mean simply a JSON API over HTTP, but I
-think there's really a lot of concrete gain to be had by adopting REST more
-closely to what Roy Fieldings first envisioned.
+I have been working with SQL databases since 2015. During this time, I have
+worked with Microsoft SQL Server, MySQL and PostgreSQL. I have used ORMs
+(Django and JPA2/Hibernate) and have hand-crafted optimized queries without any
+problems.
 
-I have been using REST more rigorously 2017, although I have been designing
-"RESTful" JSON APIs over HTTP since 2015. I have good experience on properly
-using the HTTP verbs (including the often forgotten OPTIONS), resources, and
-HATEOAS.
+As far as building and maintaining an application goes, I would say that I have
+no problems using any of those tools whatsoever.
 
 [Top](#top)
 
-### Software Architecture
+### Ubuntu
+See [Linux](#linux).
 
-From [working under a software architecture
-professor](/cv#software-engineering-intern-at-software-architecture-lab), who
-then became more or less my mentor for the whole course, I got a strong
-theoretical basis on the field. I feel comfortable with viewpoint modeling and
-with applying reference architectures to concrete problems.
+[Top](#top)
 
-That said, I know most people aren't like that, and the word itself has a
-([probably
-deserved](https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/))
-stigma around it, so I try to have a very lightweight approach to architecture
-in practice. I believe that we can get the whole team to think architecturally
-just by asking the right questions at the right stage of a project and working
-together to answer them, and that we can get a lot of concrete value from doing
-that. No UML required, and definitely no Big Design Upfront.
+## Some Experience
+
+### Ansible
+
+I've used Ansible for about two years, to manage both on-premises and virtual
+cloud servers. In 2017 my team has moved on to cloud-managed Kubernetes, and
+since then my Ansible skills got a little rusty, but I'm confident I could pick
+it up again fast, should the need arise.
+
+See also: [DevOps](#devops).
+
+[Top](#top)
+
+### AWS
+See [DevOps](#devops).
+
+[Top](#top)
+
+### Azure
+See [DevOps](#devops).
+
+[Top](#top)
+
+### Google Cloud Platform
+See [DevOps](#devops).
 
 [Top](#top)
 
@@ -407,19 +429,7 @@ See also: [Java](#java).
 
 [Top](#top)
 
-### SQL
-
-I have been working with SQL databases since 2015. During this time, I have
-worked with Microsoft SQL Server, MySQL and PostgreSQL. I have used ORMs
-(Django and JPA2/Hibernate) and have hand-crafted optimized queries without any
-problems.
-
-As far as building and maintaining an application goes, I would say that I have
-no problems using any of those tools whatsoever.
-
-[Top](#top)
-
-### Ubuntu
-See [Linux](#linux).
+### PostgreSQL
+See [SQL](#sql).
 
 [Top](#top)
