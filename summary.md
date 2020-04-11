@@ -3,6 +3,9 @@
 
 <a id="top"/>
 
+Once you are done with this summary, you can find out more about me in [my
+resume](/cv).
+
 ## Table of Contents
 {:.no_toc}
 
@@ -71,6 +74,24 @@ In April 2020 I was verified as a top 5% NodeJS Expert by PluralSight IQ.
 
 ![PluralSight IQ NodeJS Expert](/assets/node_expert.png)
 
+### Optimization
+
+Sort of my favorite theme in Computer Science right now. I think that
+applications based on heuristic optimization have a potential to transform a
+lot of businesses, especially when paired with machine learning.
+
+My [graduation project](/cv#-education) in college was about this and, since
+then, the more I learn, the more excited I get. On my job, I have designed,
+implemented and deployed a [optimization
+system](/cv#project-process-optimization) for job distribution among
+maintenance workers of a large industrial client, complete with a constructive
+heuristic and local search.
+
+I also have a [pet project](/cv#-personal-projects) that is really just an
+excuse to tweak around algorithms and see what happens.
+
+[Top](#top)
+
 ### Python
 
 I've been using Python personally since 2013, and professionally since 2015.  I
@@ -122,24 +143,6 @@ in practice. I believe that we can get the whole team to think architecturally
 just by asking the right questions at the right stage of a project and working
 together to answer them, and that we can get a lot of concrete value from doing
 that. No UML required, and definitely no Big Design Upfront.
-
-[Top](#top)
-
-### Optimization
-
-Sort of my favorite theme in Computer Science right now. I think that
-applications based on heuristic optimization have a potential to transform a
-lot of businesses, especially when paired with machine learning.
-
-My [graduation project](/cv#-education) in college was about this and, since
-then, the more I learn, the more excited I get. On my job, I have designed,
-implemented and deployed a [optimization
-system](/cv#project-process-optimization) for job distribution among
-maintenance workers of a large industrial client, complete with a constructive
-heuristic and local search.
-
-I also have a [pet project](/cv#-personal-projects) that is really just an
-excuse to tweak around algorithms and see what happens.
 
 [Top](#top)
 
@@ -370,6 +373,21 @@ communication, but I'm really excited to try other methods.
 
 [Top](#top)
 
+### Spring Boot
+
+My framework of choice when building Java applications. I have been using it
+professionally since 2018, and I'm always amazed at the sheer amount of
+functionality it offers, and the quality of (most) design decisions that went
+into it.
+
+Of course, because of that, one risks having the whole application swallowed up
+by it, but that can be avoided by having a separate domain model, independent
+from the framework.
+
+See also: [Java](#java).
+
+[Top](#top)
+
 ### SQL
 
 I have been working with SQL databases since 2015. During this time, I have
@@ -412,20 +430,6 @@ See [DevOps](#devops).
 
 ### Google Cloud Platform
 See [DevOps](#devops).
-
-[Top](#top)
-
-### Spring Boot
-
-My framework of choice when building Java applications. I have been using it
-professionally since 2018, and I'm always amazed at the sheer amount of stuff
-it offers.
-
-Of course, because of that, one risks having the whole application swallowed up
-by it, but that can be avoided by having a separate domain model, independent
-from the framework.
-
-See also: [Java](#java).
 
 [Top](#top)
 
