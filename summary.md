@@ -244,6 +244,13 @@ projects, I believe that a "domain first" approach is always beneficial.
 
 [Top](#top)
 
+### Flask
+
+I have used Flask on a few projects since 2016. I tend to prefer Flask over
+Django when using NoSQL databases.
+
+[Top](#top)
+
 ### Git
 
 I have been using git professionally almost every day since 2017. At this
