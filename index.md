@@ -31,8 +31,8 @@ My contributions include:
   collaboration with business stakeholders.
 - Design of a heuristic solver for the resource optimization problem and its
   implementation in efficient Cython. Successfully used in production.
-- Design and partial implementation a proper RESTful API in collaboration with
-  the front-end developers.
+- Design and partial implementation of a proper RESTful API in collaboration with
+  front-end developers.
 
 **Toolset:** Python, Django, Domain-Driven Design, Docker, Git, SQL,
 Kubernetes, Google Cloud Platform, RabbitMQ

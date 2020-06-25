@@ -26,24 +26,6 @@ See also: [DevOps](#devops).
 
 [Top](#top)
 
-### Fast paced environments
-
-I can't think of a faster environment than [a tiny startup rising up from the
-ground](/cv#project-indoor-positioning). Honestly, I love this kind of
-environment (in fact, our office was on a old house where two of the team
-members lived, so there was work going on *all the time*. I have slept on their
-couch more than once). I work my best when I can go to sleep with a problem in
-my head, wake up with the solution, share it with everyone and go make it.
-
-On the other hand, such environments are prone to the "permanent sense of
-impending doom syndrome", and it's not a easy task for management to avoid
-that. As such, I think that a open feedback culture is a hard requisite for
-having a healthy fast paced work environment. Sometimes we just need to take a
-step back and take a good look at our priorities, everyone works better when
-they're feeling safe.
-
-[Top](#top)
-
 ### Indoor Positioning
 
 From 2015 to 2017 I have [worked mostly on indoor
@@ -241,6 +223,24 @@ makes sense to the project I'm working on.
 
 Even though some of the techniques aren't really well suited for all software
 projects, I believe that a "domain first" approach is always beneficial.
+
+[Top](#top)
+
+### Fast paced environments
+
+I can't think of a faster environment than [a tiny startup rising up from the
+ground](/cv#project-indoor-positioning). Honestly, I love this kind of
+environment (in fact, our office was on a old house where two of the team
+members lived, so there was work going on *all the time*. I have slept on their
+couch more than once). I work my best when I can go to sleep with a problem in
+my head, wake up with the solution, share it with everyone and go make it.
+
+On the other hand, such environments are prone to the "permanent sense of
+impending doom syndrome", and it's not a easy task for management to avoid
+that. As such, I think that a open feedback culture is a hard requisite for
+having a healthy fast paced work environment. Sometimes we just need to take a
+step back and take a good look at our priorities, everyone works better when
+they're feeling safe.
 
 [Top](#top)
 
