@@ -1,15 +1,36 @@
 # Curriculum Vitæ
 
-> **If you are a recruiter, you might want to check out my [Experience Summary](/summary),
+> **If you are a recruiter, you might also want to check out my [Experience Summary](/summary),
 > where I tell a bit about my work experience with several tools and methods, sorted by keyword.**
 
 You can also download a slightly more condensed version of this in [PDF](/pdf/cv.pdf).
 
-## <i class="fa fa-briefcase"></i> Work History
+## <i class="fa fa-briefcase"></i> Recent Work History
 
-### Software Engineer (Back-end and DevOps) at Novidá 
+### Back-end Engineer / SRE at [Roon Labs](https://roonlabs.com/)
 
-*Sep 2015 - now*
+*Jun 2020 - now*
+
+Roon Labs is the creator of the Roon music player. It's a premium product for demanding
+music fans and professionals. I joined the company as a Back-end Engineer, but quickly 
+became involved in the infrastructure rebuild project, where I started performing a role
+closer to DevOps/SRE.
+
+#### Project: Infrastructure Rebuild
+
+Soon after I joined the company, I started working on rebuilding the entire cloud
+infrastructure of the company using Terraform and Kubernetes, where previously 
+Docker Swarm was used. Because this project only involved one more person, I was
+able to contribute with several parts of the infrastructure, including:
+
+- A new developer workflow based on GitOps best practices, using Helm and ArgoCD.
+- Several custom Terraform modules for improving code reuse.
+- Automation tools and technical documentation for common tasks.
+- Secrets management automation, making the adoption of security best practices easier
+
+### Software Engineer (Back-end and DevOps) at [Novidá](https://novida.com)
+
+*Sep 2015 - Jun 2020*
 
 Novidá is a startup using indoor positioning to optimize low-automation processes
 in industry and facilities. I started working there right at the beginning, in
@@ -17,11 +38,10 @@ the Indoor Positioning project, and then moved on to the Process Optimization pr
 
 #### Project: Process Optimization
 
-In 2018, I was assigned to lead the development of the process optimization product.
-This was done in close collaboration with a large industrial client, which
-mostly inspired its creation. I had to balance the needs of the client with the
-interests of the company in creating a widely useful product, and had to
-negotiate the development of features with stakeholders on both sides.
+In 2018, I was assigned to the development of the process optimization product,
+in close collaboration with a large industrial client. I had to balance the needs of
+the client with the interests of the company in creating a widely useful product,
+and had to negotiate the development of features with stakeholders on both sides.
 
 The project itself was also very challenging, as it had an intricate domain and
 involved solving a particularly intractable combinatorial optimization problem.
@@ -39,10 +59,8 @@ Kubernetes, Google Cloud Platform, RabbitMQ
 
 #### Project: Indoor Positioning
 
-The company was just starting back then, so I had to build the Android client library
-and the back-end from scratch, by myself. Nowadays, it is the cornerstone of all
-products of the company, processing hundreds of positions every second with high
-availability and low latency. My contributions include:
+The cornerstone of all products of the company, processing hundreds of positions
+every second with high availability and low latency. My contributions include:
 
 - An adaptable signal processing pipeline, including Bayesian filtering.
 - Building, training, evaluating and deploying machine learning models.
@@ -50,35 +68,8 @@ availability and low latency. My contributions include:
 - Tooling for monitoring and profiling the system in production with Graylog and Grafana.
 - Deploying on Kubernetes with proper configuration to ensure scalability and availability.
 
-**Toolset:** Java, Spring Boot, Python, Scikit-Learn, Docker, Git, SQL,
-Kubernetes, Azure, Microservices Architecture, RabbitMQ
-
-
-### Software Engineering Intern at Software Architecture Lab 
-
-*Apr 2014 - Sep 2015*
-
-My first job was in a software factory inside the Software Architecture Lab in
-my University department (POLI-USP). There, we worked under a very dedicated and
-very demanding professor, building and maintaining various internal systems with
-a strong focus on quality.
-
-#### Project: eNOVA24h
-
-Most of my time there was developing a system for the Nutrition department of
-the University. The objective of the project was to support a new research
-methodology, which included collecting data from patients, cross-referencing
-them with a large nutritional database and creating useful automated reports for
-the research at the department. My contributions include:
-
-- Designing and building task-oriented use cases and web interfaces in .NET.
-- Designing a denormalized data model to better support the reporting modules.
-- Working with the researchers to design the data visualization in the reports.
-- Deploying the system to IIS servers at the University.
-
-**Toolset:** C#, ASP.NET MVC, Microsoft SQL Server, Python, Ansible,
-Test-Driven Development (TDD), Layered Architecture
-
+**Toolset:** Java, Spring Boot, Python, Ansible, Docker, Git, SQL,
+Kubernetes, AWS, Microservices Architecture, RabbitMQ
 
 ## <i class="fa fa-plus-square"></i> Personal Projects
 
@@ -102,6 +93,12 @@ set arithmetics powered by Cython.
 system to help measure relative performance of the resources and strategies on
 a operation and suggest optimal resource allocation based on previous
 performance.
+
+#### Certificates and major courses
+
+- [Cloud Engineering with Google Cloud](https://www.coursera.org/account/accomplishments/specialization/certificate/FRE8HBFC9SVS)
+- [Cloud Architecture with Google Cloud](https://www.coursera.org/account/accomplishments/specialization/certificate/4Q3TPM5MXBW5)
+- [SRE and DevOps Engineer with Google Cloud](https://www.coursera.org/account/accomplishments/specialization/certificate/FRE8HBFC9SVS)
 
 ## <i class="fa fa-globe"></i> Languages
 
