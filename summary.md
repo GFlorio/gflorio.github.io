@@ -76,7 +76,7 @@ excuse to tweak around algorithms and see what happens.
 
 ### Python
 
-I've been using Python personally since 2013, and professionally since 2015.  I
+I've been using Python personally since 2009, and professionally since 2015.  I
 think it's a great language for a lot of tasks, and the ecosystem has some of
 the best tools around for web services, machine learning and scientific
 computing in general.
