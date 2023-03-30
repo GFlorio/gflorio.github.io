@@ -26,6 +26,29 @@ See also: [DevOps](#devops).
 
 [Top](#top)
 
+### Google Cloud Platform (GCP)
+
+I have been using GCP since 2017. I think it's a great platform for running
+all kinds of workloads, and I'm comfortable with most of its characteristics and quirks.
+I have done official Google courses to improve my knowledge of the platform, and I
+have good experience with GKE, GCE, GCS, Cloud SQL, Pub/Sub, Dataproc and many other services.
+
+See also: [DevOps](#devops).
+
+[Top](#top)
+
+### Helm
+
+I have been using Helm daily since 2020. I think it's a great tool for managing
+Kubernetes deployments, and I'm comfortable with writing complex charts from scratch,
+including subcharts and dependencies. At Roon Labs, I
+[used a combination of base charts and CLI tools](/cv#project-developer-experience-improvements)
+to design a new developer experience with deployments, making it easy for
+developers to follow best practices, and for SRE enginners to roll out changes to
+multiple services at once.
+
+[Top](#top)
+
 ### Indoor Positioning
 
 From 2015 to 2017 I have [worked mostly on indoor
@@ -55,24 +78,6 @@ seen if it will become a reliable standard.
 In April 2020 I was verified as a top 5% NodeJS Expert by PluralSight IQ.
 
 ![PluralSight IQ NodeJS Expert](/assets/node_expert.png)
-
-### Optimization
-
-Sort of my favorite theme in Computer Science right now. I think that
-applications based on heuristic optimization have a potential to transform a
-lot of businesses, especially when paired with machine learning.
-
-My [graduation project](/cv#-education) in college was about this and, since
-then, the more I learn, the more excited I get. On my job, I have designed,
-implemented and deployed a [optimization
-system](/cv#project-process-optimization) for job distribution among
-maintenance workers of a large industrial client, complete with a constructive
-heuristic and local search.
-
-I also have a [pet project](/cv#-personal-projects) that is really just an
-excuse to tweak around algorithms and see what happens.
-
-[Top](#top)
 
 ### Python
 
@@ -111,11 +116,10 @@ HATEOAS.
 
 ### Software Architecture
 
-From [working under a software architecture
-professor](/cv#software-engineering-intern-at-software-architecture-lab), who
-then became more or less my mentor for the whole course, I got a strong
-theoretical basis on the field. I feel comfortable with viewpoint modeling and
-with applying reference architectures to concrete problems.
+From working under a software architecture professor, who then became more or
+less my mentor for the whole college course, I got a strong theoretical basis in
+the field. I feel comfortable with viewpoint modeling and with applying reference
+architectures to concrete problems.
 
 That said, I know most people aren't like that, and the word itself has a
 ([probably
@@ -138,8 +142,6 @@ from scratch](/cv#project-indoor-positioning) in a economically unstable
 country such as Brazil, agility was vital to the survival of the company. I
 think that helped me build a natural agile mindset.
 
-The methodology with which I have most experience is Kanban.
-
 [Top](#top)
 
 ### Algorithms
@@ -148,6 +150,11 @@ I'm a bit of a Logic nerd, therefore I'm also a bit of a algorithm nerd. I feel
 comfortable analyzing, designing and tweaking many kinds of algorithms, but I
 especially like heuristic searches. In fact, tweaking algorithms is pretty much
 all I do in my pet project [OperaPlan](/cv#-personal-projects).
+
+[Top](#top)
+
+### ArgoCD
+See [GitOps](#gitops).
 
 [Top](#top)
 
@@ -182,19 +189,10 @@ always worked in places with a strong DevOps culture. I have always been
 responsible for taking care of my code during all its lifecycle, including
 running and monitoring it, and I learned a lot because of this.
 
-The [first years at Novidá](/cv#project-indoor-positioning) were quite
-Ops-heavy because, in order to save money with server bills, we would change
-cloud providers every year, seeking those "free trials" for startups that almost
-all of the cloud providers offer.
-
-We started at AWS, then IBM's Softlayer, then Azure and finally Google Cloud
-Platform. All those changes were naturally very stressful and required a lot of
-work, but they have led us to operate in a very cloud-agnostic way, based on
-Kubernetes.
-
-In the end, that left me with some knowledge of all those cloud providers,
-although I didn't have much chance to explore their tools in depth, since we
-were mostly rolling our own.
+Later on, I had the opportunity to help
+[rebuild from the ground up](/cv#project-infrastructure-rebuild) much of the
+infrastructure at Roon Labs, which was a great learning experience working with
+DevOps and GitOps at scale.
 
 [Top](#top)
 
@@ -216,7 +214,7 @@ See also: [Python](#python).
 ### Domain-Driven Design
 
 Essential technique in my toolset. I have been using DDD and pushing it in my
-team in one way or another since 2017. Even though the beginning was a
+teams in one way or another since 2017. Even though the beginning was a
 little awkward (the learning curve can be pretty steep), I now consider myself
 able to properly apply both the tactical and strategic patterns in a way that
 makes sense to the project I'm working on.
@@ -254,9 +252,17 @@ Django when using NoSQL databases.
 ### Git
 
 I have been using git professionally almost every day since 2017. At this
-point, it's almost second nature for me, although I still have to take a look
-at the docs to do some of the "set and forget" things such as submodules and
-hooks. I have worked with trunk based development and with feature branches.
+point, it's almost second nature for me. I have worked with trunk based
+development and with feature branches workflows.
+
+[Top](#top)
+
+### GitOps
+
+I'm a strong proponent of GitOps. I have been using it since 2018, in different forms
+and I think it's a great way to manage infrastructure for many kinds of projects.
+The specific tools will vary by project, but the benefits of having a detailed and
+precise log of all changes to the infrastructure are too good to pass up.
 
 [Top](#top)
 
@@ -283,10 +289,10 @@ always close by.
 ### Kubernetes
 
 I have been using Kubernetes since 2017 for managing several projects in a
-auto-scalable cloud of around 80 pods. I like to use it in conformity with the
-recommended best practices and In the spirit of a true DevOps culture. Each
-team manages their own infrastructure configuration files in a central Git
-repository. That way, we have a true versioned and reproducible environment.
+auto-scalable cloud of around 20 nodes, serving upwards of 2000 requests per second,
+including many mission-critical services.  I have experience configuring clusters
+from scratch using Terraform, GKE and Helm, and also applying the current best
+practices for availability and security.
 
 See also: [DevOps](#devops).
 
@@ -357,26 +363,57 @@ See [SQL](#sql).
 
 [Top](#top)
 
+### Optimization
+
+Sort of my favorite theme in Computer Science right now. I think that
+applications based on heuristic optimization have a potential to transform a
+lot of businesses, especially when paired with machine learning.
+
+My [graduation project](/cv#-education) in college was about this and, since
+then, the more I learn, the more excited I get. On my job, I have designed,
+implemented and deployed a [optimization
+system](/cv#project-process-optimization) for job distribution among
+maintenance workers of a large industrial client, complete with a constructive
+heuristic and local search.
+
+I also have a [pet project](/cv#-personal-projects) that is really just an
+excuse to tweak around algorithms and see what happens.
+
+[Top](#top)
+
+### PostgreSQL
+
+I have been working with PostgreSQL since 2016, and managing it in production since
+2020. I have a good grasp of the best practices and the most common pitfalls related
+to operating simple databases.
+
+See also: [SQL](#sql).
+
+[Top](#top)
+
 ### RabbitMQ
 
-It's really the best tool available to build autonomous services around. I have
+It's a great tool to build autonomous services around. I have
 been using it in production since 2016 for processing hundreds of messages per
-second and its reliability surprises me every time.
+second and I've found it's really reliable and relative easy to manage.
 
 I have also used it just for scheduling asynchronous tasks (such as with
 Celery), but I think it might be a little overkill just for that.
 
 [Top](#top)
 
+### Redis
+
+I have been using Redis since 2016, mostly as a cache. I'm also used to managing
+it in production, both standalone and inside Kubernetes clusters.
+
+[Top](#top)
+
 ### Remote working
 
-I have been working with varying degrees of "remoteness" since 2015, 2 years of
-that period being fully remote. The best thing about it, in my opinion, is
-being able to live away from large urban centers without wasting hours upon
-hours of commuting.
-
-The only "remote workflow" I have ever experienced is fully asynchronous
-communication, but I'm really excited to try other methods.
+I have been working with varying degrees of "remoteness" since 2015.
+The best thing about it, in my opinion, is being able to work with the best people
+from all over the world, without being restricted by geographic barriers.
 
 [Top](#top)
 
@@ -399,11 +436,19 @@ See also: [Java](#java).
 
 I have been working with SQL databases since 2015. During this time, I have
 worked with Microsoft SQL Server, MySQL and PostgreSQL. I have used ORMs
-(Django and JPA2/Hibernate) and have hand-crafted optimized queries without any
-problems.
+(Django and JPA2/Hibernate) and have experience hand-crafting optimized queries.
 
 As far as building and maintaining an application goes, I would say that I have
 no problems using any of those tools whatsoever.
+
+[Top](#top)
+
+### Terraform
+
+I have experience using Terraform to manage infrastructure as code, such as
+Kubernetes clusters, databases, load balancers and other cloud resources.
+I have written custom reusable modules, and have experience managing infrastructure
+in an immutable paradigm with it.
 
 [Top](#top)
 
@@ -430,17 +475,10 @@ See [DevOps](#devops).
 
 [Top](#top)
 
-### Azure
-See [DevOps](#devops).
+### Golang
 
-[Top](#top)
-
-### Google Cloud Platform
-See [DevOps](#devops).
-
-[Top](#top)
-
-### PostgreSQL
-See [SQL](#sql).
+I've been actively wanting to learn Go since 2022. I've had the opportunity of
+writing a few Kubernetes operators with it, and I'm looking for ways to use it more
+on my work.
 
 [Top](#top)

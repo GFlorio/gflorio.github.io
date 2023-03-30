@@ -9,7 +9,7 @@ You can also download a slightly more condensed version of this in [PDF](/pdf/cv
 
 ### Site Reliability Engineer at [Roon Labs](https://roonlabs.com/)
 
-*Jun 2020 - now*
+*Jun 2020 - Mar 2023*
 
 Roon Labs is the creator of the Roon music player. It's a premium product for demanding
 music fans and professionals. I joined the company as a Back-end Engineer, but quickly
