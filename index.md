@@ -7,26 +7,50 @@ You can also download a slightly more condensed version of this in [PDF](/pdf/cv
 
 ## <i class="fa fa-briefcase"></i> Recent Work History
 
-### Back-end Engineer / SRE at [Roon Labs](https://roonlabs.com/)
+### Site Reliability Engineer at [Roon Labs](https://roonlabs.com/)
 
 *Jun 2020 - now*
 
 Roon Labs is the creator of the Roon music player. It's a premium product for demanding
-music fans and professionals. I joined the company as a Back-end Engineer, but quickly 
+music fans and professionals. I joined the company as a Back-end Engineer, but quickly
 became involved in the infrastructure rebuild project, where I started performing a role
 closer to DevOps/SRE.
 
 #### Project: Infrastructure Rebuild
 
 Soon after I joined the company, I started working on rebuilding the entire cloud
-infrastructure of the company using Terraform and Kubernetes, where previously 
+infrastructure of the company using Terraform and Kubernetes, where previously
 Docker Swarm was used. Because this project only involved one more person, I was
 able to contribute with several parts of the infrastructure, including:
 
-- A new developer workflow based on GitOps best practices, using Helm and ArgoCD.
 - Several custom Terraform modules for improving code reuse.
 - Automation tools and technical documentation for common tasks.
 - Secrets management automation, making the adoption of security best practices easier
+- Custom Grafana dashboards and alerts for monitoring the infrastructure and services.
+
+#### Project: Developer Experience Improvements
+
+I also worked on improving the developer experience of the company, by automating
+a lot of the manual tasks that were previously performed by the developers using
+GitOps, Helm and ArgoCD. My contributions include:
+
+- A new base Helm chart for most services, with a standardized structure and
+  configuration, that made it easy for developers to follow best practices.
+- A CLI tool for performing common operations on the repository files.
+- Centralized logging handling.
+
+#### Project: ScyllaDB Migration
+
+Since some of the services of the company were not a good fit for our main PostgreSQL,
+I was tasked of deploying a new database cluster using ScyllaDB. My contributions
+include:
+
+- A Terraform module for deploying ScyllaDB clusters on GCP.
+- Automation for common tasks, such as backups, restores, and cluster upgrades.
+- A custom Grafana dashboard for monitoring the cluster.
+
+**Toolset:** Terraform, Kubernetes, Helm, ArgoCD, Git, GCP, AWS, Vault, Grafana,
+Prometheus, PostgreSQL, Redis, ScyllaDB
 
 ### Software Engineer (Back-end and DevOps) at [Novidá](https://novida.com)
 
@@ -54,9 +78,6 @@ My contributions include:
 - Design and partial implementation a proper RESTful API in collaboration with
   the front-end developers.
 
-**Toolset:** Python, Django, Domain-Driven Design, Docker, Git, SQL,
-Kubernetes, Google Cloud Platform, RabbitMQ
-
 #### Project: Indoor Positioning
 
 The cornerstone of all products of the company, processing hundreds of positions
@@ -68,8 +89,8 @@ every second with high availability and low latency. My contributions include:
 - Tooling for monitoring and profiling the system in production with Graylog and Grafana.
 - Deploying on Kubernetes with proper configuration to ensure scalability and availability.
 
-**Toolset:** Java, Spring Boot, Python, Ansible, Docker, Git, SQL,
-Kubernetes, AWS, Microservices Architecture, RabbitMQ
+**Toolset:** Java, Spring Boot, Python, Django, Docker, Git, SQL, GCP,
+Kubernetes, AWS, Microservices, RabbitMQ
 
 ## <i class="fa fa-plus-square"></i> Personal Projects
 
