@@ -1,52 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
-    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
-
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <script src="https://kit.fontawesome.com/935b7db574.js" crossorigin="anonymous"></script>
-  </head>
+  {% include head.html %}
   <body>
     <div class="wrapper">
-      <header>
-        <h1 class="header" style="font-size:24.5px;"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-
-        <p class="header"><img src="{{site.logo | relative_url}}" alt="Me" width="160"/><br><br>Computing, domain modeling, and the occasional cat picture.</p>
-
-        <ul>
-            <li><i class="fa fa-file-alt fa-lg"></i> <a href="/cv">Curriculum Vitæ</a></li>
-            <li><i class="fab fa-github fa-lg"></i>
-                <a href="{{ site.github.owner_url }}" target="_blank" rel="noreferrer">GitHub</a></li>
-            <li><i class="fab fa-stack-overflow fa-lg"></i>
-                <a href="https://stackoverflow.com/users/story/1708291" target="_blank" rel="noreferrer">StackOverflow</a></li>
-        </ul>
-      </header>
+      {% include header.html %}
       <section>
 
       {{ content }}
 
       </section>
-      <footer>
-          <p><small>Hosted on GitHub Pages<br>Gabriel Florio 2019-{{ 'now' | date: "%Y" }}</small></p>
-      </footer>
+      {% include footer.html %}
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    {% if site.google_analytics %}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162263021-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-162263021-1');
-    </script>
-    {% endif %}
   </body>
 </html>
