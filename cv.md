@@ -3,18 +3,36 @@
 > **If you are a recruiter, you might also want to check out my [Experience Summary](/summary),
 > where I tell a bit about my work experience with several tools and methods, sorted by keyword.**
 
-You can also download a slightly more condensed version of this in [PDF](/pdf/cv.pdf).
+You can also download a more condensed version of this in [PDF](/pdf/cv.pdf).
 
-## <i class="fa fa-briefcase"></i> Recent Work History
+## <i class="fa fa-briefcase"></i> Recent Work Experience
+
+### Data Engineer at [42 Technologies](https://42technologies.com/)
+
+*Mar 2023 - Now*
+
+42 Technologies is a startup aiming to solve the big problem of data unification
+and reporting in the retail space, by offering an ample variety of integrations
+and great UX. I work there building data integrations and pipelines, along with
+the infrastructure to run them.
+
+My contributions there include:
+
+- Several custom data pipelines built with PySpark on GCP Dataproc.
+- Integrations with external systems using Typescript on Node.
+- Custom Terraform modules for common infrastructure needs.
+- Identification of several security issues and implementation of best practices.
+- Deployment of several services using Helm on AWS Fargate.
 
 ### Site Reliability Engineer at [Roon Labs](https://roonlabs.com/)
 
 *Jun 2020 - Mar 2023*
 
-Roon Labs is the creator of the Roon music player. It's a premium product for demanding
-music fans and professionals. I joined the company as a Back-end Engineer, but quickly
-became involved in the infrastructure rebuild project, where I started performing a role
-closer to DevOps/SRE.
+Roon Labs aims to make the ultimate music player for audiophiles. I worked there
+mostly on the infrastructure that serves the cloud services and on the data
+pipelines that deal with music metadata. I worked there on rebuilding the
+infrastructure using Kubernetes on GCP, managing our PostgreSQL and Scylla
+databases and overhauling the GitOps workflow and the developer experience around it.
 
 #### Project: Infrastructure Rebuild
 
@@ -25,7 +43,7 @@ able to contribute with several parts of the infrastructure, including:
 
 - Several custom Terraform modules for improving code reuse.
 - Automation tools and technical documentation for common tasks.
-- Secrets management automation, making the adoption of security best practices easier
+- Secrets management automation, making the adoption of security best practices easier.
 - Custom Grafana dashboards and alerts for monitoring the infrastructure and services.
 
 #### Project: Developer Experience Improvements
