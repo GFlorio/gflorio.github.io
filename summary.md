@@ -383,8 +383,8 @@ excuse to tweak around algorithms and see what happens.
 
 ### PostgreSQL
 
-I have been working with PostgreSQL since 2016, and managing it in production since
-2020. I have a good grasp of the best practices and the most common pitfalls related
+I have been working with PostgreSQL since 2016, and managing it in production since 2020.
+I have a good grasp of the best practices and the most common pitfalls related
 to operating simple databases.
 
 See also: [SQL](#sql).
