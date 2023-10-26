@@ -9,7 +9,7 @@ You can also download a more condensed version of this in [PDF](/pdf/cv.pdf).
 
 ### Data Engineer at [42 Technologies](https://42technologies.com/)
 
-*Mar 2023 - Now*
+*Mar 2021 - Now*
 
 42 Technologies is a startup aiming to solve the big problem of data unification
 and reporting in the retail space, by offering an ample variety of integrations
@@ -22,7 +22,8 @@ My contributions there include:
 - Integrations with external systems using Typescript on Node.
 - Custom Terraform modules for common infrastructure needs.
 - Identification of several security issues and implementation of best practices.
-- Deployment of several services using Helm on AWS Fargate.
+- Improvements to service observability via Sentry integration
+- Github Actions CI/CD pipeline improvements
 
 ### Site Reliability Engineer at [Roon Labs](https://roonlabs.com/)
 
